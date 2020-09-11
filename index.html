@@ -3,13 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Shenica Graham's Design Portfolio</title>
     <!-- Link CSS stylesheets -->
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style/index.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Beth Ellen'>
+    <!-- Link Scripts -->
+    <script src="https://kit.fontawesome.com/2563865650.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </head>
-<body>
+<body><!-- Wireframe option 2 -->
+    <!-- Making The Facebook Plugins Work -->
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0" nonce="YSgZEoLg"></script>
+    <!-- END Facebook Plugin SDK -->
+<!-- BEGIN HEADER -->
+<div id="header">
+    <!-- Begin logo and Navigation Bar -->
+    <div id="logo">
+        <img src="images/portfolio/logos/bandprofilelogo.png"/>
+        <div class="topnav">
+          <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+          <a href="https://shenicargraham.com/about/" target="_blank">About Me</a>
+          <a href="https://shenicargraham.com/blog/" target="_blank">Blog</a>
+          <a href="https://shenicargraham.com/contact/" target="_blank">Contact</a>
+          <div class="dropdown">
+          <button class="dropbtn" onclick="myFunction()">Projects <i class="arrow down"></i>
+          </button>
+          <div class="dropdown-content" id="myDropdown">
+            <a href="https://shenicargraham.com/archive/accessories/" target="_blank">Accessories</a>
+            <a href="https://shenicargraham.com/archive/apparel/" target="_blank">Apparel</a>
+            <a href="https://shenicargraham.com/archive/banners/" target="_blank">Banners</a>
+            <a href="https://shenicargraham.com/archive/books/" target="_blank">Books</a>
+            <a href="https://shenicargraham.com/archive/event-promotions/" target="_blank">Event Promotions</a>
+            <a href="https://shenicargraham.com/archive/infographics/" target="_blank">Infographics</a>
+            <a href="https://shenicargraham.com/archive/logos/" target="_blank">Logos</a>
+            <a href="https://shenicargraham.com/archive/magazines/" target="_blank">Magazine Covers</a>
+            <a href="https://shenicargraham.com/archive/music/" target="_blank">Music</a>
+            <a href="https://shenicargraham.com/archive/photography/" target="_blank">Photography</a>
+            <a href="https://shenicargraham.com/archive/videos/" target="_blank">Videos</a>
+            <a href="https://shenicargraham.com/archive/websites/" target="_blank">Websites</a>
+            <a href="https://shenicargraham.com/services/services-web-development/tutorials/" target="_blank">WordPress Tutorials</a>
+            <a href="https://shenicargraham.com/archive/writing-samples/" target="_blank">Writing Samples</a>
+          </div>
+          </div>          
+        </div>
+      </div>
+        </div> <!-- End LOGO and Navigation Bar -->
+</div> <!-- END HEADER -->
+<!-- BEGIN Portfolio Slideshow -->
+<section class="myprojects">
+    <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 4</div>
+      <img src="images/portfolio/websites/hautemidwest-1.png" style="width:100%">
+      <div class="text">WordPress Template Customization: Haute Midwest Fashion Magazine<br/>
+        <a href="http://hautemidwest.wordpress.com" target="_blank">hautemidwest.wordpress.com</a></div>
+    </div>
     
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 4</div>
+      <img src="images/portfolio/websites/shineonpurpose2020.png" style="width:100%">
+      <div class="text">WordPress Template Customization: Shine on Purpose - 31 Women Ministry<br/>
+      <a href="http://shineonpurpose.wordpress.com" target="_blank">shineonpurpose.wordpress.com</a></div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 4</div>
+      <img src="images/portfolio/websites/gsyndicates2020.png" style="width:100%">
+      <div class="text">WordPress Template Customization: GSyndicates Fashion Design<br/>
+        <a href="http://gsyndicates.wordpress.com" target="_blank">gsyndicates.wordpress.com</a></div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 4</div>
+      <img src="images/portfolio/websites/wiseeku.png" style="width:100%">
+      <div class="text">WordPress Template Customization: WiSeekU Bible Study Institute<br/>
+        <a href="http://wiseeku.wordpress.com" target="_blank">wiseeku.wordpress.com</a></div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <hr/>
+</section>
+<!-- End Portfolio Slideshow -->
+<!-- Begin Content -->
+<section class="content">
+    <div class="">
+        <h3><i class="fas fa-tshirt"></i> Featured Fashion Designs</h3>
+        <p><img src="images/portfolio/fashion/gs-ajn001-black.png" width="372" title="GSyndicates: Black Impress Necklace"/>
+            <img src="images/portfolio/fashion/gsjeans_moxiejacket_front16.png" width="371" title="GSyndicates: Moxie Jean Jacket"/></p>
+        <p>« <a href="https://shenicargraham.com/archive/apparel/" target="_blank">more fashion designs</a></p>
+
+        <h3><i class="far fa-image"></i> Featured Magazine Cover Designs</h3>
+        <p><img src="images/portfolio/magazines/HMcover_Ashlyn_november2013.png" width="244" title="Haute Midwest Magazine: Winter 2013"/>
+            <img src="images/portfolio/magazines/nora_on_the_cover_HM_december20131.png" width="241" title="Haute Midwest Magazine: December 2013"/>
+            <img src="images/portfolio/magazines/HMCover_laurenonthecover_february2014web.png" width="241" title="Haute Midwest Magazine: February 2014"/></p>
+            <p>« <a href="https://shenicargraham.com/archive/magazines/" target="_blank">more magazine covers</a></p>
+
+        <h3><i class="far fa-image"></i> Featured Banner Designs</h3>
+        <p><img src="images/portfolio/banners/wtt_slider_manhood2.png" width="760" title="Manhood by Cary D. Graham: Author and Book Promotion Banner"/></p>
+        <p><img src="images/portfolio/banners/shinebanner_original.png" width="760" title="Shine: A Woman of Purpose by Shenica R. Graham: Author and Book Promotion Banner"/></p>
+        <p>« <a href="https://shenicargraham.com/archive/banners/" target="_blank">more banner designs</a></p>
+
+        <h3><i class="fas fa-book-reader"></i> Featured Book</h3>
+        <h4>Shine: A Woman of Purpose</h4>
+        <h6>by Shenica R. Graham</h6>
+        <p class="article"><img src="images/portfolio/books/ShineAWomanofPurposeBook2.png"/>Experience a powerful testimony and cultivate the fruit of the Holy Spirit in your life.</p>
+        <p>Becoming a woman of purpose is not a destination where you arrive whole. It is a lifestyle wherein you improve every day.</p>
+        <p>This book is a way to dive into growing your flower of faith and character. This book is part of the Shine series: a manifestation of decades of soul-searching, questioning, and re-discovering God’s unmerited and miraculous favor and grace.</p>
+        <p><br/><br/><a href="https://subscribe.wordpress.com/memberships/?blog=180334107&plan=195&lang=en&pid=211&redirect=https%3A%2F%2Fshenicargraham.com%2Fportfolio%2Fbooks" class="buynow" target="_blank">BUY NOW $19.47</a></p>
+        <p>« <a href="https://shenicargraham.com/archive/books/" target="_blank">more books</a></p>
+
+        <h3><i class="fas fa-headphones"></i> Featured Music</h3>
+        <p><iframe width="100%" height="265" scrolling="no" frameborder="no" src="https://www.reverbnation.com/widget_code/html_widget/artist_845743?widget_id=55&pwc[included_songs]=1&context_type=page_object&spoid=artist_845743&pwc[size]=small&pwc[color]=dark" style="width:0px;min-width:100%;max-width:100%;"></iframe></p>
+        <p>« <a href="https://www.reverbnation.com/shenicagraham" target="_blank">my reverbnation</a> | <a href="https://www.facebook.com/shenicagrahamusic/app/2405167945/" target="_blank">my facebook band page</a></p>
+
+        <h3><i class="far fa-image"></i> Featured Logo Designs</h3>
+        <p><img src="images/portfolio/logos/medallion_hmsince2013.png" width="271" title="Haute Midwest Fashion Magazine Medallion"/>
+            <img src="images/portfolio/logos/hautemidwestlogo2020.png" width="278" title="Haute Midwest Fashion Magazine Logo"/></p>
+        <p>« <a href="https://shenicargraham.com/archive/logos/" target="_blank">more logo designs</a></p>
+
+        <h3><i class="far fa-file-alt"></i> Featured Article</h3>
+        <h4>Mental Platter</h4>
+        <h6>Serving up life hacks with a side of psychology</h6>
+        <p class="article">Welcome to <em>Mental Platter</em>, where your psych <em>plat du jour</em> is always up and looking good. Searching for a specific mental health topic? Let me know. I’ll whip up something tasty for your neurons. Need a fashionable life hack? That’s my specialty! Stay tuned for my #fashionforword lexicon. On a journey to a new you? Me too! Let’s walk a ways together and share a cold one (I mean lemonade, of course). [ <a href="https://vocal.media/psyche/mental-platter" target="_blank">read more</a> ]</p>
+        <p>« <a href="https://shenicargraham.com/archive/writing-samples/" target="_blank">more articles</a></p>
+</section><!-------------------------------------  End content   ------------------------------------------->
+
+
+<!-- Begin Foter -->
+<div id="footer">
+    <!-----------------------  Begin Social Menu   ------------------------------------------>
+    <div class="icon-bar">
+      <a class="active" href="#" title="Home"><i class="fa fa-home"></i></a> 
+      <a href="https://www.facebook.com/ShenicaRGraham/" target="_blank" title="Facebook"><i class="fab fa-facebook-square"></i></a> 
+      <a href="https://www.instagram.com/shenicagraham/" target="_blank" title="Instagram"><i class="fab fa-instagram-square"></i></a>
+      <a href="https://www.linkedin.com/in/shenicagraham/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.pinterest.com/gshenica/" target="_blank" title="Pinterest"><i class="fab fa-pinterest-square"></i></a>
+      <a href="https://twitter.com/shenicagraham/" target="_blank" title="Twitter"><i class="fab fa-twitter-square"></i></a>            
+      <a href="https://vocal.media/authors/shenica-graham/" target="_blank" title="Vocal"><i class="fa fa-globe"></i></a>
+    </div><!-----------------------  End Social Menu ------------------------------------------>
+</div> <!-- End Footer -->
 </body>
 </html>
