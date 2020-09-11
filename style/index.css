@@ -206,6 +206,7 @@ header div.logo nav a, header div.logo .subnav a {
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+  margin-top: -3px;
 }
                 /***************************  Create Arrows *************/
 .arrow {
@@ -236,14 +237,13 @@ header div.logo nav a, header div.logo .subnav a {
 }
   
 /* Change the color of links on hover */
-header div.logo nav a:hover, header div.logo nav a:hover, .dropdown:hover .dropbtn, .dropbtn:focus, .dropbtn:hover {
-  background: url("images/greenTile.png");
+header div.logo nav a:hover, .dropdown:hover .dropbtn, .dropbtn:focus, .dropbtn:hover {
   color: #ff9900;
 }
 
 .topsubnav a:hover {
   background-color: none;
-  color: hsl(117, 33%, 66%);
+  color: #ff9900;
 }
 
 .dropdown-content {
@@ -263,11 +263,6 @@ header div.logo nav a:hover, header div.logo nav a:hover, .dropdown:hover .dropb
     display: block;
     text-align: left;
   }
-  
-  .dropdown-content a:hover {
-    background: url("images/greenTile.png");
-  }
-  
   .show {
     display: block;
   }
@@ -328,79 +323,100 @@ header div.logo nav a:hover, header div.logo nav a:hover, .dropdown:hover .dropb
 
 /************************** Begin PAGE CONTENT STYLES ***/
 #projects {
-  width: 80%;
+  width: 100%;
   text-align: center;
   margin: 0 auto;
+  margin-bottom: 10%;
   padding: 0;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
 }
-#projects div.container {
-  text-align:center;
-  margin: 0;
-  padding: 0;
-  align-items: center;
+#projects div.container div.project1 {
+  margin-top:2%;
 }
-  #projects .container div {
-    text-align:center;
-    margin: 0;
-    padding: 0;
-    align-items: center;
-  }
-  #projects .container div img {
-    max-width:75%;
-  }
-  #maincontent {
-    background: none;
-    float: left;
-    margin-right: 40px;
-    padding: 20px;
-    width: 800px;
-    border: none;
-  }
+#projects div.container button {
+  width: 12%;
+  background: #252424;
+  color: whitesmoke;
+  border: none;
+  border-radius: 5%;
+  margin: .5% 2.5%;
+  padding: 1%;
+  letter-spacing: .25rem;
+}
+#projects div.container button:hover {
+  background: #ededed;
+  color: black;
+}
+#projects div.container div.project234 img {
+  margin: 0 1%;
+  padding-bottom: 2%;
+}
+#projects div.container div.project567 img {
+  min-width: 350px;
+  max-width: 350px;
+  margin: 0 1%;
+  padding-bottom: 2%;
+  flex-wrap: wrap;
+}
   .orange {
       color: #ff9900;
   }
-  .footer {
-    position: fixed;
+  #footer {
     background: black;
-    width: 1500px;
+    width: 100%;
+    position: fixed;
+    text-align: center;
     left: 0;
     bottom: 0;
-    margin-top: 25px;
-    padding: 10px;
-    border: none;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
   }
-  .footer a {
-    color: hsl(116, 41%, 57%);
-  }
-  .copyright {
-    color: grey;
-    font-size: 12px;
-    width: 300px;
-  }
+#footer .container div {
+  text-align:center;
+}
+#footer .container button {
+  width: 10em;
+  background: #252424;
+  color: whitesmoke;
+  border: none;
+  border-radius: 5%;
+  margin: 2% 2.5%;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  padding: 1%;
+  letter-spacing: .25rem;
+}
+#footer .container button:hover {
+  background: #ededed;
+  color: black;
+}
+.footer a {
+  color: red;
+}
+.copyright {
+  color: grey;
+  font-size: 12px;
+  width: 300px;
+}
 /*****************   Social Menu  ************************/
 .icon-bar {
-  position: absolute;
-  right:0;
-  margin-top: 4px;
-  width: 40px;
-  background-color: #555;
+  width: 30em;
+  margin: 0 auto;
 }
-
 .icon-bar a {
-  display: block;
   text-align: center;
-  padding: 10.5px;
+  padding: 2%;
   transition: all 0.3s ease;
-  color: white;
+  color: whitesmoke;
   font-size: 20px;
 }
-
 .icon-bar a:hover {
-  background-color: #000;
-}
-.active {
-  background-color: hsl(116, 41%, 57%);
+  background-color: #fff;
+  border-radius: 100%;
 }
