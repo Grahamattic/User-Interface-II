@@ -81,7 +81,7 @@ body {
     border-bottom: 2px solid #a0a0a0;
     overflow: hidden;
   }
-  header div.logo img {
+  header .logo img {
     float:left;
     width: 235px;
     margin: 0;
@@ -89,14 +89,13 @@ body {
     padding-top:2px;
   }
 
- header div.logo nav {
+ header .logo nav {
     overflow: hidden;
     background-color: none;
   }
   
 /* Style the links inside the navigation bar */
 header div.logo nav a {
-  float: right;
   display: flex;
   font-size: 16px;
   color: #ddd;
@@ -247,16 +246,4 @@ header div.logo nav a:hover, .dropdown:hover .dropbtn, .dropbtn:focus, .dropbtn:
 .icon-bar a:hover {
   background-color: #fff;
   border-radius: 100%;
-}
-
-/********************** Video Styles **************************************/
-#form{
-  height: 80%;
-  width: 80%;
-  padding: 0;
-  margin: auto;
-}
-iframe{
-  width: 100%;
-  height: 100%;
 }
