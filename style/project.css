@@ -40,12 +40,12 @@ h3.firsth3 {
   margin-top:10px;
 }
 h4 {
-  font-size: 20px;
+  font-size: 16px;
   background: none;
-  margin: 5px 0 -25px 0;
+  margin: 5px 0 -5px 0;
   padding: 5px;
   padding-left: 0;
-  letter-spacing: 2pt;
+  letter-spacing: .5pt;
   border-bottom: 2px solid #ddd;
 }
 h5 {
@@ -109,14 +109,15 @@ blockquote {
   border-left: 5px solid hsl(116, 41%, 57%);
 }
 header {
-  height: 10vh;
+  height: 15vh;
   overflow: hidden;
   border-bottom: 2px solid #a0a0a0;
 }
 /************************** Begin LOGO / Nav Styles ***/
 header div.logo {
   background-color: black;
-  padding: 0;
+  padding: 10px 0;
+  height: 150px;
   border: none;
   border-bottom: 2px solid #a0a0a0;
   overflow: hidden;
@@ -126,7 +127,7 @@ header div.logo img {
   width: 235px;
   margin: 0;
   padding: 0;
-  padding-top:2px;
+  padding-top:10px;
 }
 header div.logo nav {
   overflow: hidden;
@@ -268,14 +269,12 @@ border:none;
 
 /************************** Begin PAGE CONTENT STYLES ***/
 #content {
-  background-color:whitesmoke;
   width: 85%;
   margin: auto;
   padding: 0px;
   display: flex;
 }
 #maincontent {
-  background: #F4F0EB;
   margin-right: 35px;
   padding: 0 10px;
   width: 100%;
@@ -287,6 +286,12 @@ border:none;
 }
 .projectdetail img {
   width:100%;
+}
+p.logo img {
+  width: 40%;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
 }
 /************************** Begin Slideshow Styles ***/
 
