@@ -268,7 +268,6 @@ border:none;
 
 /************************** Begin PAGE CONTENT STYLES ***/
 #content {
-  background-color:whitesmoke;
   width: 85%;
   margin: auto;
   padding: 0px;
@@ -282,9 +281,10 @@ border:none;
   border: none;
 }
 .project1 img {
-  width: 35%;
-  float: left;
-  margin-right: 15px;
+  width: 100%;
+}
+.projectdetail img {
+  width:100%;
 }
 /************************** Begin Slideshow Styles ***/
 
