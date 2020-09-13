@@ -268,10 +268,11 @@ border:none;
 /************************** END LOGO Nav Styles ***/
 
 /************************** Begin PAGE CONTENT STYLES ***/
-#content, .container {
+#content {
   width: 85%;
   margin: auto;
   padding: 0px;
+  display: flex;
 }
 #maincontent {
   margin-right: 35px;
@@ -280,61 +281,16 @@ border:none;
   margin-top: 20px;
   border: none;
 }
-.welcome {
-  width:60%;
-  margin: auto;
-}
-h1.welcome {
-  font-size: 30px;
-  margin-top: 35px;
-}
 .project1 img {
-  width: 100%;
+  width: 30%;
+  float: left;
   margin-right: 15px;
 }
 .projectdetail img {
   width:100%;
 }
-#projects {
-  width: 100%;
-  text-align: center;
-  margin: 0 auto;
-  margin-bottom: 15em;
-  padding: 0;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-#projects div.container div.project1 {
-  margin-top:2%;
-}
-#projects div.container button {
-  width: 12%;
-  background: #252424;
-  color: whitesmoke;
-  border: none;
-  border-radius: 5%;
-  margin: .5% 2.5%;
-  padding: 1%;
-  letter-spacing: .25rem;
-}
-#projects div.container button:hover {
-  background: #ededed;
-  color: black;
-}
-#projects div.container div.project234 img {
-  margin: 0 1%;
-  padding-bottom: 2%;
-}
-#projects div.container div.project567 img {
-  min-width: 350px;
-  max-width: 350px;
-  margin: 0 1%;
-  padding-bottom: 2em;
-  flex-wrap: wrap;
-}
 /************************** Begin Slideshow Styles ***/
+
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin: 0 0 0 -10px;}
 .mySlides {display: none}
@@ -459,6 +415,9 @@ img {vertical-align: middle;}
   margin-bottom: 25px;
   border-bottom: 1px solid #ddd;
   padding: 0;
+}
+.widget9 img {
+  width: 280px;
 }
 .fb-page {
   border: none;
