@@ -420,6 +420,9 @@ img {vertical-align: middle;}
   border-bottom: 1px solid #ddd;
   padding: 0;
 }
+.widget9 img {
+  width: 280px;
+}
 .fb-page {
   border: none;
   background: none;
