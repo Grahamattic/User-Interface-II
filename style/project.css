@@ -185,7 +185,6 @@ header div.logo {
   overflow: hidden;
 }
 header div.logo img {
-  float:left;
   width: 235px;
   margin: 0;
   padding: 0;
@@ -195,17 +194,16 @@ header div.logo img {
 Nav Styles
 ********************************************************************************/
 header div.logo nav {
-  overflow: hidden;
-  background-color: none;
+  margin-top: 25px;
+  padding: 0;
 }
 /* Style the links inside the navigation bar */
-header div.logo nav a {
-  display: flex;
-  font-size: 16px;
-  color: #ddd;
-  text-align: center;
-  padding: 22.5px 20px;
-  text-decoration: none;
+header div.logonav nav a {
+font-size: 13.5px;
+text-align: center;
+padding: 40px 42px;
+text-decoration: none;
+color: #ddd;
 }
 header div.logo nav a:hover {
   color: #ff9900;
@@ -487,10 +485,6 @@ img {
   from {opacity: .4} 
   to {opacity: 1}
 }
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
 /********************************************************************************
 Sidebar Styles
 ********************************************************************************/
@@ -583,4 +577,14 @@ font-size: 20px;
 .icon-bar a:hover {
 background-color: #fff;
 border-radius: 100%;
+}
+/********************************************************************************
+Media Queries
+********************************************************************************/
+@media only screen and (max-width: 800px) {
+  .prev, .next,.text {font-size: 11px;}
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 500px) {
+  .prev, .next,.text {font-size: 11px;}
 }
