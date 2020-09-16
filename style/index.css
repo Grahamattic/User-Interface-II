@@ -76,11 +76,11 @@ a {
 ***************************************************************************************************/
 h1 {
   font-size: 30px;
-  margin-left: 5px;
-  margin-top: 0px;
+  margin: 0 auto;
+  padding: 0;
 }
 h2 {
-  font-size: 30px;
+  font-size: 30rem;
   margin-left: 5px;
 }
 .h2sidebar {
@@ -150,6 +150,9 @@ blockquote {
   padding: 20px;
   border-left: 5px solid hsl(116, 41%, 57%);
 }
+.welcome p {
+  width: 90%;
+}
 /**************************************************************************************************
   Image Styles
 ***************************************************************************************************/
@@ -166,27 +169,24 @@ blockquote {
   width: 375px;
 }
 header div.logo nav img {
-  min-width: 18%;
-  height: 100%;
+  width: 30%;
   margin: 0;
   padding: 0;
-  padding-top:10px;
 }
 .project1 img {
   width: 100%;
   margin-right: 15px;
 }
-.projectdetail img {
-  width:100%;
-}
 #projects div.container div.project234 img {
   max-width: 40%;
+  min-width: 110px;
   margin: 0 1%;
   padding-bottom: 2%;
   flex-wrap: wrap;
 }
 #projects div.container div.project567 img {
   max-width: 35%;
+  min-width: 110px;
   margin: 0 1%;
   padding-bottom: 2%;
   flex-wrap: wrap;
@@ -201,10 +201,9 @@ header {
   margin: 0;
   padding: 0;
 }
-/****************** Logo Styles *************/
+/****************** Logo Div Styles *************/
 header div.logo {
   width: 100%;
-  height: 100%;
   margin: 0;
   padding-bottom: 10px;
   border: none;
@@ -275,7 +274,7 @@ margin-right:0;
   border: none;
 }
 .welcome {
-  width:60%;
+  width:100%;
   margin: auto;
 }
 h1.welcome {
@@ -373,7 +372,7 @@ img {vertical-align: middle;}
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
-  width: 100%;
+  width: 80%;
   text-align: center;
 }
 .text a {
@@ -467,16 +466,16 @@ img {vertical-align: middle;}
   text-align:center;
 }
 #footer .container button {
-width: 10em;
+width: 8em;
 background: #252424;
 color: whitesmoke;
 border: none;
 border-radius: 5%;
-margin: 2% 2.5%;
+margin: 2% auto;
 margin-top: 10px;
 margin-bottom: 1.25em;
-padding: 1%;
-letter-spacing: .25rem;
+padding: 1% 0;
+letter-spacing: .2rem;
 }
 #footer .container button:hover {
 background: #ededed;
@@ -530,9 +529,18 @@ text-decoration: none;
   header {
     width: 30%;
     justify-content: center;
-    background: yellow;
     margin-left: auto;
     margin-right: auto;
+  }
+  h1.welcome {
+    font-size: 1rem;
+    padding: 0;
+    margin-left:-.1rem;
+    font-weight: bold;
+  }
+  h2 {
+    font-size: .5rem;
+  }
 }
 /* When the screen is less than 600px wide, stack the links vertically instead of horizontally */
 @media screen and (max-width: 400px) {
